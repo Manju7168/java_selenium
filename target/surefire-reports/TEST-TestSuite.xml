@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="167.788" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\JavaSelenium\src\main\resources\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\JavaSelenium\target\test-classes;C:\JavaSelenium\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\4.0.8\extentreports-4.0.8.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire10005533096030442981\surefirebooter15926913326185421585.jar C:\Users\admin\AppData\Local\Temp\surefire10005533096030442981 2021-06-02T16-30-03_792-jvmRun1 surefire3154420870973870561tmp surefire_016778990575794295487tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\JavaSelenium\target\test-classes;C:\JavaSelenium\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\4.0.8\extentreports-4.0.8.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\JavaSelenium"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire10005533096030442981\surefirebooter15926913326185421585.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.1"/>
+    <property name="grp" value="logintest,bookingtest"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\JavaSelenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\apache-maven-3.8.1\bin;C:\Users\admin\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python39\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="bookingDetailsTest" classname="tests.booking.BookinDetailsTest" time="117.506">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //dt[contains(.,&apos;To)]/following-sibling::dd[1] (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //dt[contains(.,'To)]/following-sibling::dd[1] (tried for 60 second(s) with 500 milliseconds interval)
+	at tests.booking.BookinDetailsTest.bookingDetailsTest(BookinDetailsTest.java:40)
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //dt[contains(.,'To)]/following-sibling::dd[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//dt[contains(.,'To)]/following-sibling::dd[1]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9K12GLO', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86076e88e2f08c5f120d4f11a87d018f
+*** Element info: {Using=xpath, value=//dt[contains(.,'To)]/following-sibling::dd[1]}
+	at tests.booking.BookinDetailsTest.bookingDetailsTest(BookinDetailsTest.java:40)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20326
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622631609.566][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 02, 2021 4:30:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+6755 [main] INFO common.BasePage - Url successfully launched: https://www.booking.com/index.en-gb.html
+6756 [main] INFO common.BasePage - Before wait for DomLoad 
+7824 [main] INFO common.BasePage - After wait for DomLoad
+7824 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+7824 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+7869 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+10738 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+10911 [main] INFO common.BasePage - Before wait for DomLoad 
+12023 [main] INFO common.BasePage - After wait for DomLoad
+12024 [main] INFO common.BasePage - Before entering textqweroty@exmple11.comin Element: By.id: username
+12024 [main] INFO common.BasePage - Before waitForElement: By.id: username
+12046 [main] INFO common.BasePage - After waitForElement: By.id: username
+12212 [main] INFO common.BasePage - After entering textqweroty@exmple11.comin Element: By.id: username
+12328 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+12328 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+12344 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+12499 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+12757 [main] INFO common.BasePage - Before wait for DomLoad 
+13789 [main] INFO common.BasePage - After wait for DomLoad
+13789 [main] INFO common.BasePage - Before entering textAbcde12345in Element: By.id: password
+13789 [main] INFO common.BasePage - Before waitForElement: By.id: password
+13822 [main] INFO common.BasePage - After waitForElement: By.id: password
+13975 [main] INFO common.BasePage - After entering textAbcde12345in Element: By.id: password
+14115 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+14115 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+14135 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+14220 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+14371 [main] INFO common.BasePage - Before wait for DomLoad 
+18772 [main] INFO common.BasePage - After wait for DomLoad
+18773 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Airport taxis')]
+18773 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Airport taxis')]
+18880 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Airport taxis')]
+19059 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Airport taxis')]
+19407 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Airport taxis')]
+22244 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Airport taxis')]
+22677 [main] INFO common.BasePage - Before wait for DomLoad 
+23738 [main] INFO common.BasePage - After wait for DomLoad
+23738 [main] INFO common.BasePage - Before clicking Element: By.id: returnJourneyNegative
+23738 [main] INFO common.BasePage - Before waitForElement: By.id: returnJourneyNegative
+23774 [main] INFO common.BasePage - After waitForElement: By.id: returnJourneyNegative
+23827 [main] INFO common.BasePage - After clicking Element: By.id: returnJourneyNegative
+24198 [main] INFO common.BasePage - Before entering textKempegowda International Airportin Element: By.id: pickupLocation
+24198 [main] INFO common.BasePage - Before waitForElement: By.id: pickupLocation
+24220 [main] INFO common.BasePage - After waitForElement: By.id: pickupLocation
+24452 [main] INFO common.BasePage - After entering textKempegowda International Airportin Element: By.id: pickupLocation
+34489 [main] INFO common.BasePage - Before waitForElement: By.id: pickupLocation
+34531 [main] INFO common.BasePage - After waitForElement: By.id: pickupLocation
+34687 [main] INFO common.BasePage - sendKeyboardKey  :By.id: pickupLocation
+34687 [main] INFO common.BasePage - Before waitForElement: By.id: pickupLocation
+34714 [main] INFO common.BasePage - After waitForElement: By.id: pickupLocation
+34809 [main] INFO common.BasePage - sendKeyboardKey  :By.id: pickupLocation
+35186 [main] INFO common.BasePage - Before entering textSilverKey Executive Stays 20026 RR Nagarin Element: By.id: dropoffLocation
+35186 [main] INFO common.BasePage - Before waitForElement: By.id: dropoffLocation
+35207 [main] INFO common.BasePage - After waitForElement: By.id: dropoffLocation
+35443 [main] INFO common.BasePage - After entering textSilverKey Executive Stays 20026 RR Nagarin Element: By.id: dropoffLocation
+45459 [main] INFO common.BasePage - Before waitForElement: By.id: dropoffLocation
+45503 [main] INFO common.BasePage - After waitForElement: By.id: dropoffLocation
+45609 [main] INFO common.BasePage - sendKeyboardKey  :By.id: dropoffLocation
+45609 [main] INFO common.BasePage - Before waitForElement: By.id: dropoffLocation
+45638 [main] INFO common.BasePage - After waitForElement: By.id: dropoffLocation
+45752 [main] INFO common.BasePage - sendKeyboardKey  :By.id: dropoffLocation
+46197 [main] INFO common.BasePage - Before clicking Element: By.xpath: //button[@aria-label='pickup date input field']
+46197 [main] INFO common.BasePage - Before waitForElement: By.xpath: //button[@aria-label='pickup date input field']
+46226 [main] INFO common.BasePage - After waitForElement: By.xpath: //button[@aria-label='pickup date input field']
+46382 [main] INFO common.BasePage - After clicking Element: By.xpath: //button[@aria-label='pickup date input field']
+46382 [main] INFO common.BasePage - Before clicking Element: By.xpath: //a[@aria-label='4, June 2021']
+46382 [main] INFO common.BasePage - Before waitForElement: By.xpath: //a[@aria-label='4, June 2021']
+46415 [main] INFO common.BasePage - After waitForElement: By.xpath: //a[@aria-label='4, June 2021']
+46526 [main] INFO common.BasePage - After clicking Element: By.xpath: //a[@aria-label='4, June 2021']
+46826 [main] INFO common.BasePage - Before clicking Element: By.xpath: //button[@aria-label='pickup time input field']
+46826 [main] INFO common.BasePage - Before waitForElement: By.xpath: //button[@aria-label='pickup time input field']
+46844 [main] INFO common.BasePage - After waitForElement: By.xpath: //button[@aria-label='pickup time input field']
+46933 [main] INFO common.BasePage - After clicking Element: By.xpath: //button[@aria-label='pickup time input field']
+46933 [main] INFO common.BasePage - Before Selecting 03 from Dropdown: By.id: pickupHour
+46936 [main] INFO common.BasePage - Before waitForElement: By.id: pickupHour
+46959 [main] INFO common.BasePage - After waitForElement: By.id: pickupHour
+47137 [main] INFO common.BasePage - After Selecting 03 from Dropdown: By.id: pickupHour
+47137 [main] INFO common.BasePage - Before Selecting 15 from Dropdown: By.id: pickupMinute
+47137 [main] INFO common.BasePage - Before waitForElement: By.id: pickupMinute
+47155 [main] INFO common.BasePage - After waitForElement: By.id: pickupMinute
+47439 [main] INFO common.BasePage - After Selecting 15 from Dropdown: By.id: pickupMinute
+47439 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Confirm')]
+47439 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Confirm')]
+47466 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Confirm')]
+47546 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Confirm')]
+47835 [main] INFO common.BasePage - Before Selecting 2 from Dropdown: By.id: passengers
+47835 [main] INFO common.BasePage - Before waitForElement: By.id: passengers
+47855 [main] INFO common.BasePage - After waitForElement: By.id: passengers
+47988 [main] INFO common.BasePage - After Selecting 2 from Dropdown: By.id: passengers
+48297 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Search')]
+48297 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Search')]
+48314 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Search')]
+55779 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Search')]
+55937 [main] INFO common.BasePage - Before wait for DomLoad 
+56996 [main] INFO common.BasePage - After wait for DomLoad
+56997 [main] INFO common.BasePage - Before waitForElement: By.xpath: //dt[contains(.,'To)]/following-sibling::dd[1]
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="tests.login.LoginTest" time="37.047">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622631734.404][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 02, 2021 4:32:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+132801 [main] INFO common.BasePage - Url successfully launched: https://www.booking.com/index.en-gb.html
+132801 [main] INFO common.BasePage - Before wait for DomLoad 
+133950 [main] INFO common.BasePage - After wait for DomLoad
+133950 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+133950 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+134050 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+136984 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+137132 [main] INFO common.BasePage - Before wait for DomLoad 
+138165 [main] INFO common.BasePage - After wait for DomLoad
+138165 [main] INFO common.BasePage - Before entering textqweroty@exmple11.comin Element: By.id: username
+138165 [main] INFO common.BasePage - Before waitForElement: By.id: username
+138192 [main] INFO common.BasePage - After waitForElement: By.id: username
+138430 [main] INFO common.BasePage - After entering textqweroty@exmple11.comin Element: By.id: username
+138539 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+138540 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+138557 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+138639 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+138936 [main] INFO common.BasePage - Before wait for DomLoad 
+139963 [main] INFO common.BasePage - After wait for DomLoad
+139964 [main] INFO common.BasePage - Before entering textAbcde12345in Element: By.id: password
+139964 [main] INFO common.BasePage - Before waitForElement: By.id: password
+140030 [main] INFO common.BasePage - After waitForElement: By.id: password
+140189 [main] INFO common.BasePage - After entering textAbcde12345in Element: By.id: password
+140314 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+140314 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+140333 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+140407 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+140408 [main] INFO common.BasePage - Before wait for DomLoad 
+145468 [main] INFO common.BasePage - After wait for DomLoad
+145468 [main] INFO common.BasePage - Before clicking Element: By.id: profile-menu-trigger--title
+145468 [main] INFO common.BasePage - Before waitForElement: By.id: profile-menu-trigger--title
+145634 [main] INFO common.BasePage - After waitForElement: By.id: profile-menu-trigger--title
+146062 [main] INFO common.BasePage - After clicking Element: By.id: profile-menu-trigger--title
+146327 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign out')]
+146327 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign out')]
+146361 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign out')]
+150136 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign out')]
+150370 [main] INFO common.BasePage - Before wait for DomLoad 
+151459 [main] INFO common.BasePage - After wait for DomLoad
+154108 [main] INFO common.BasePage - Url successfully launched: https://www.booking.com/index.en-gb.html
+154108 [main] INFO common.BasePage - Before wait for DomLoad 
+155156 [main] INFO common.BasePage - After wait for DomLoad
+155156 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+155156 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+155180 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+157315 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+157504 [main] INFO common.BasePage - Before wait for DomLoad 
+158534 [main] INFO common.BasePage - After wait for DomLoad
+158535 [main] INFO common.BasePage - Before entering textqweroty@exmple11.comin Element: By.id: username
+158535 [main] INFO common.BasePage - Before waitForElement: By.id: username
+158579 [main] INFO common.BasePage - After waitForElement: By.id: username
+158810 [main] INFO common.BasePage - After entering textqweroty@exmple11.comin Element: By.id: username
+158936 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+158936 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+158959 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Continue with email')]
+159092 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Continue with email')]
+159359 [main] INFO common.BasePage - Before wait for DomLoad 
+160402 [main] INFO common.BasePage - After wait for DomLoad
+160403 [main] INFO common.BasePage - Before entering textAbcde1in Element: By.id: password
+160403 [main] INFO common.BasePage - Before waitForElement: By.id: password
+160429 [main] INFO common.BasePage - After waitForElement: By.id: password
+160574 [main] INFO common.BasePage - After entering textAbcde1in Element: By.id: password
+160702 [main] INFO common.BasePage - Before clicking Element: By.xpath: //span[contains(.,'Sign in')]
+160702 [main] INFO common.BasePage - Before waitForElement: By.xpath: //span[contains(.,'Sign in')]
+160722 [main] INFO common.BasePage - After waitForElement: By.xpath: //span[contains(.,'Sign in')]
+160839 [main] INFO common.BasePage - After clicking Element: By.xpath: //span[contains(.,'Sign in')]
+160839 [main] INFO common.BasePage - Before wait for DomLoad 
+161877 [main] INFO common.BasePage - After wait for DomLoad
+161878 [main] INFO common.BasePage - Before waitForElement: By.id: password-description
+161923 [main] INFO common.BasePage - After waitForElement: By.id: password-description
+162000 [main] INFO common.BasePage - GetElementText for locator :By.id: password-description
+162000 [main] INFO pages.LoginPage - Expected :- The email and password combination you entered doesn't match Actual:- The email and password combination you entered doesn't match
+]]></system-err>
+  </testcase>
+</testsuite>

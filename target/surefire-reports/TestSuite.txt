@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 167.788 s <<< FAILURE! - in TestSuite
+tests.booking.BookinDetailsTest.bookingDetailsTest  Time elapsed: 117.506 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //dt[contains(.,'To)]/following-sibling::dd[1] (tried for 60 second(s) with 500 milliseconds interval)
+	at tests.booking.BookinDetailsTest.bookingDetailsTest(BookinDetailsTest.java:40)
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //dt[contains(.,'To)]/following-sibling::dd[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//dt[contains(.,'To)]/following-sibling::dd[1]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9K12GLO', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86076e88e2f08c5f120d4f11a87d018f
+*** Element info: {Using=xpath, value=//dt[contains(.,'To)]/following-sibling::dd[1]}
+	at tests.booking.BookinDetailsTest.bookingDetailsTest(BookinDetailsTest.java:40)
+

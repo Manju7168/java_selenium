@@ -1,0 +1,33 @@
+1559 [[1;34mINFO[m] Scanning for projects...
+1676 [[1;34mINFO[m] 
+1676 [[1;34mINFO[m] [1m---------------------< [0;36mcom.myproject:JavaSelenium[0;1m >---------------------[m
+1677 [[1;34mINFO[m] [1mBuilding JavaSelenium 1.0-SNAPSHOT[m
+1677 [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+2279 [[1;34mINFO[m] 
+2279 [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mJavaSelenium[0;1m ---[m
+2428 [[1;34mINFO[m] Deleting C:\JavaSelenium\target
+2500 [[1;34mINFO[m] 
+2500 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mJavaSelenium[0;1m ---[m
+2866 [[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2872 [[1;34mINFO[m] Copying 1 resource
+2942 [[1;34mINFO[m] 
+2942 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mJavaSelenium[0;1m ---[m
+3400 [[1;34mINFO[m] Changes detected - recompiling the module!
+3401 [[1;33mWARNING[m] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+3408 [[1;34mINFO[m] Compiling 9 source files to C:\JavaSelenium\target\classes
+4956 [[1;34mINFO[m] 
+4956 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mJavaSelenium[0;1m ---[m
+4963 [[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+4964 [[1;34mINFO[m] skip non existing resourceDirectory C:\JavaSelenium\src\test\resources
+4964 [[1;34mINFO[m] 
+4964 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mJavaSelenium[0;1m ---[m
+4982 [[1;34mINFO[m] Changes detected - recompiling the module!
+4982 [[1;33mWARNING[m] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+4985 [[1;34mINFO[m] Compiling 7 source files to C:\JavaSelenium\target\test-classes
+5517 [[1;34mINFO[m] 
+5517 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M5:test[m [1m(default-test)[m @ [36mJavaSelenium[0;1m ---[m
+6572 [[1;34mINFO[m] 
+6572 [[1;34mINFO[m] -------------------------------------------------------
+6572 [[1;34mINFO[m]  T E S T S
+6572 [[1;34mINFO[m] -------------------------------------------------------
+7322 [[1;34mINFO[m] Running [1mTestSuite[m
